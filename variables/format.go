@@ -12,6 +12,8 @@ var (
 )
 
 func main() {
+
+	fmt.Printf("s for string: %s\n", variable)
 	fmt.Printf("d for Integer: %d\n", a)
 	fmt.Printf("6d for Integer: %6d\n", a)
 
