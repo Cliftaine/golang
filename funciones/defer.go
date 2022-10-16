@@ -8,7 +8,12 @@ func sum(a1, a2 int) int {
 	return 0
 }
 
+func show2() {
+	fmt.Println("Holas_2")
+}
+
 func show() {
+	defer show2()
 	fmt.Println("Holas")
 }
 
@@ -16,7 +21,6 @@ func main() {
 
 	sum(2, 2)
 
-	defer sum(5, 5)
-
+	defer sum(2, 3)
 	show()
 }
