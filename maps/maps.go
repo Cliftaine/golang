@@ -13,15 +13,7 @@ func main() {
 	fmt.Println(abs[2])
 
 	//maps with arrays
-	teams := map[string][]string{
-		"Orcas":   []string{"Fred", "Ralph", "Bijou"},
-		"Lions":   []string{"Sarah", "Peter", "Billie"},
-		"Kittens": []string{"Waldo", "Raul", "Ze"},
-	}
 
-	for k, v := range teams {
-		fmt.Println(k, v)
-	}
 
 	fmt.Println(teams)
 

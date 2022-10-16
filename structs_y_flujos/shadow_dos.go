@@ -6,8 +6,8 @@ import (
 
 func main() {
 	x := 10
-	if x > 5 {
-		x, y := 5, 20
+	for x {
+		
 		fmt.Println(x, y)
 	}
 	fmt.Println(x)
